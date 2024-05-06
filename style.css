@@ -23,14 +23,16 @@ body {
     font-family: "Inter", sans-serif;
     background-color: var(--off-black);
     color: var(--white);
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 main {
     width: min(100% - 2rem, 375px);
-    min-height: 580px;
     background: var(--dark-grey);
     padding: 1.25rem;
-    margin: 5rem auto;
+    margin: 0 auto;
     border-radius: 1rem;
 }
 
